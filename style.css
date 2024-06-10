@@ -1,2 +1,39 @@
-font-family: "Albert Sans", sans-serif;
-font-family: "Castoro", serif;
+/* Root */
+/* Général */
+
+
+
+:root{
+    --colorbody: #F3F0E9;
+    --terra: #E54F19;
+    --vertclair: #A1DD70;
+    --vertfoncé: #90C069;
+    --marron: #634F40;
+    --marronfoncé: #3E2625;
+    --blanc: #FFFFFF;
+
+    --texte: "Albert Sans",sans-serif;
+    --titre: "Castoro",serif;
+    --page-mw: 1250px;
+    --gap: 2rem;
+}
+
+/* Général */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    /* added line */
+    border: 0;
+}
+
+body{
+    background-color: var(--colorbody);
+    
+}
